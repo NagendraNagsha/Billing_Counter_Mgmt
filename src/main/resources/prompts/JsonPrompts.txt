@@ -1,0 +1,27 @@
+*******Prompts for JSON Manipulation*******
+
+Prompt 1:
+Aim: To create a Json format data structure for storing information about products for Billing process.
+--> "Create a JSON structure to store information about products including fields for product ID, Sub section: (name, description,Category price)."
+{
+  "products": [
+    {
+      "productID": "001",
+      "name": "Product A",
+      "description": "Description of Product A",
+      "category": "Category 1",
+      "price": 29.99
+    },
+    {
+      "productID": "002",
+      "name": "Product B",
+      "description": "Description of Product B",
+      "category": "Category 2",
+      "price": 49.99
+    }
+  ]
+}
+--> Create data for at least 5 products.
+--> Ensure that the JSON structure is valid and properly formatted.
+--> Include a variety of categories and price points.
+Outcome: create a Products Json file with JSON structure for Billing process.

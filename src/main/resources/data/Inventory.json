@@ -1,0 +1,49 @@
+{
+  "inventory": [
+    {
+      "productID": "PROD-101",
+      "details": {
+        "name": "Wireless Ergonomic Mouse",
+        "description": "High-precision optical sensor with 2.4GHz wireless connectivity.",
+        "category": "Electronics",
+        "price": 45.50
+      }
+    },
+    {
+      "productID": "PROD-202",
+      "details": {
+        "name": "Organic Green Tea",
+        "description": "Premium hand-picked leaves from high-altitude gardens.",
+        "category": "Groceries",
+        "price": 12.99
+      }
+    },
+    {
+      "productID": "PROD-303",
+      "details": {
+        "name": "Stainless Steel Water Bottle",
+        "description": "Insulated 1-liter bottle that keeps drinks cold for 24 hours.",
+        "category": "Home & Kitchen",
+        "price": 24.00
+      }
+    },
+    {
+      "productID": "PROD-404",
+      "details": {
+        "name": "Yoga Mat",
+        "description": "Eco-friendly, non-slip 6mm thick mat for various exercises.",
+        "category": "Fitness",
+        "price": 35.75
+      }
+    },
+    {
+      "productID": "PROD-505",
+      "details": {
+        "name": "Leather Bound Journal",
+        "description": "Handcrafted A5 notebook with 200 pages of recycled paper.",
+        "category": "Stationery",
+        "price": 18.25
+      }
+    }
+  ]
+}
