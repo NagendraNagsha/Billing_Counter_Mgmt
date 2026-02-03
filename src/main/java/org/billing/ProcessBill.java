@@ -56,7 +56,7 @@ public class ProcessBill implements Serializable {
 
     private double calculateTotal() {
         AtomicReference<Double> total = new AtomicReference<>((double) 0);
-        itemList.forEach((key,item) -> total.updateAndGet(v -> v + item.getItemPrice()));
+        itemList.forEach((key,item) -> total.updateAndGet(v -> v + (item.getItemPrice() * item.getItemQuantity())));
         return total.get();
     }
 
